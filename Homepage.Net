@@ -1,0 +1,15 @@
+Public Class Homepage
+    Private Sub btn_login_Click(sender As Object, e As EventArgs) Handles btn_login.Click
+        Me.Hide()
+        loginform.Show()
+    End Sub
+
+    Private Sub btn_demo_Click(sender As Object, e As EventArgs) Handles btn_demo.Click
+        Me.Hide()
+        Form1.Show()
+    End Sub
+
+    Private Sub Homepage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+End Class
